@@ -1,0 +1,365 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="referrer" content="always" />      
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1YkFMqD5K5eeA_z96uRYTwhjWfg2R0ERk" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />       
+    <title>Download app-release.apk</title>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js" />
+
+<style>
+:root {
+    --main-bg-color: #edf5fe;
+    --light-blue: #03a9f4;
+    --dark-blue: #028bca;
+  }
+  
+  body {
+    font-family: system-ui;
+    background: var(--main-bg-color);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  
+.logo {
+    position: absolute;
+    top: 10px;
+    width: 150px;
+  }
+.copyright-text {
+    position: relative;
+    top: 100px;    
+  } 
+
+section.download {
+    background: #fff;
+    width: 430px;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px 0px #00000017;
+    padding: 1rem;
+    text-align: center;
+}
+.report-btn {
+  font-size:13px;
+  font-family:Verdana;
+  width:56px;
+  height:25px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(227, 150, 20, 1);
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  box-shadow: 0px 10px 14px -7px rgba(0, 0, 0, 1);
+  background:rgba(217, 144, 22, 1);
+}
+
+.report-btn:hover {
+  background:rgba(217, 144, 22, 1);
+}
+
+.btn {
+  margin: 5px;
+  border-radius: 4px !important;
+}
+                             
+.cybr-btn {
+  font-size:15px;
+  font-family:Arial;
+  width:170px;
+  height:36px;
+  border-width:0px;
+  color:#fff;
+  border-color:rgba(7, 142, 251, 1);
+  border-top-left-radius:9px;
+  border-top-right-radius:9px;
+  border-bottom-left-radius:9px;
+  border-bottom-right-radius:9px;
+ background: #1783e8;
+}
+
+.cybr-btn:hover {
+  background: #1133ad;
+  background-image: -webkit-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -moz-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -ms-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -o-linear-gradient(top, #1133ad, #1133ad);
+  background-image: linear-gradient(to bottom, #1133ad, #1133ad);
+  text-decoration: none;
+}
+.send-btn-container a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 15px;
+    background: var(--light-blue);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .send-btn-container a:hover {
+      background: var(--dark-blue);
+  }
+.download__icon {
+    height: 8rem;
+}                
+.toogle{
+    position: absolute;
+    margin: 1%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vh;
+    height: 3.5vh;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 10%;
+
+}
+
+.toogle:before{
+    content: "\f186";
+    font-size: 2vh;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+body.dark .toogle:before {
+    content: '\f185';
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.main{
+    /* border: 1px solid DodgerBlue;  */
+       padding: 0px 2%;
+ }
+.filename{    
+    font-size: calc(8px + 1.1vw);
+    word-wrap: break-word;
+    font-weight: bold;
+ }
+#file-name {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    etter-spacing: 0px;
+    word-spacing: 0px;
+    color: #2AAAFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+#file-name.cyber {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#file-name.dark {
+    color: white;
+}
+.container{
+    padding-top: 1%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 900px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        max-width: 900px;
+    }    
+}
+
+svg#octo {
+    width: 1.2rem;
+    padding-left: 5px;
+    fill: var(--footer-icon-color)
+}
+
+svg:hover {
+    padding-bottom: 8px;
+    transition: 0.3s;
+}
+
+#fork-text{
+    font-family: Tahoma, Geneva, sans-serif;
+font-size: 15px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #04181A;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+position: sticky;
+}   
+ 
+    
+#expire-text{
+    font-family: Impact, Charcoal, sans-serif;
+font-size: 52px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}     
+
+ #expire-text-2{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+letter-spacing: -0.4px;
+word-spacing: 0.8px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}    
+ 
+ #expire-text-2{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+letter-spacing: -0.4px;
+word-spacing: 0.8px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}    
+           
+.expire-btn  {
+  font-size:14px;
+  font-family:Arial;
+  width:148px;
+  height:23px;
+  border-width:0px;
+  color:#fff;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+ background: #1133ad;
+}
+
+.expire-btn:hover {
+    background: #1133ad;
+  background-image: -webkit-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -moz-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -ms-linear-gradient(top, #1133ad, #1133ad);
+  background-image: -o-linear-gradient(top, #1133ad, #1133ad);
+  background-image: linear-gradient(to bottom, #1133ad, #1133ad);
+  text-decoration: none;
+}
+         
+                
+#fork-text.dark {
+    color: white;
+}
+#copyright-text{
+    color: var(--footer-font-color);
+    font-size: 1.1rem;
+}
+
+.plyr--full-ui input[type=range] {
+    color: var(--player-hover-color);
+}
+.plyr__control--overlaid {
+    background: #1E1E1E;
+}
+.download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded=true] {
+    background: var(--player-hover-color);
+}
+
+.plyr__control.plyr__tab-focus {
+    box-shadow: 0 0 0 5px ;
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+    background: violet;
+}
+
+</style>
+</head>
+<body>            
+     <section class="download"> 
+    <div class="download__meta">
+        <p>
+       <h2 class="filename">Instagram Downloader.apk</h2>  
+        </p>
+       <p>                     
+       <small>4.51 MB</small> 
+       </p>   
+    </div>    
+   <div class="container">                   
+   <img src="https://siasky.net/rABtfIBglCvK1pVY9cShCsCD2whubhdpQSzLW3IlwPHvvA" alt="Icon" class="download__icon">                                    
+</div>
+<h1>Instagram Downloader Download Post ,IGTV and Reels</h1>       
+<p></p>
+<p>
+        <a href="https://siasky.net/AACJrcDEdJVvCYAUtZFNj3P3t4Wzlhga5bcG4CRE8QOPXQ">
+        <button class="cybr-btn">
+        <i class="fa fa-download" aria-hidden="true"></i> Download   
+        </button>
+       </a>
+        </p>
+        <p>
+         <p>
+         <h2 class="filename">© Pranav Dileep all rights reserved.</h2>
+         </p>  
+         </p>
+ </section> 
+</body>
+</html>
