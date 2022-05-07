@@ -1,0 +1,59 @@
+{
+  "radio": [
+    {
+      "radio_name": "Your Single Radio",
+      "radio_genre": "Pop",
+      "radio_url": "	http://46.252.154.133:8080",
+      "radio_image_url": "https://i.ibb.co/RQqggB6/radio-image.png",
+      "background_image_url": "https://i.pinimg.com/originals/9b/2f/cf/9b2fcfc4838dbcbe8b97e2e038789e6b.gif"
+    }
+  ],
+  "settings": [
+    {
+      "onesignal_app_id": "8e37561d-fd2e-4693-9d8c-c29326b3e29d",
+      "fcm_notification_topic": "your_single_radio_topic",
+      "privacy_policy_url": "https://sites.google.com/view/your-single-radio",
+	  "more_apps_url": "https://play.google.com/store/apps/developer?id=Solodroid"
+    }
+  ],
+  "ads": [
+    {
+      "ad_status": "on",
+      "ad_type": "admob",
+      "admob_publisher_id": "pub-3940256099942544",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
+      "startapp_app_id": 0,
+      "unity_game_id": 4089993,
+      "unity_banner_placement_id": "banner",
+      "unity_interstitial_placement_id": "video",
+      "applovin_banner_unit_id": "0",
+      "applovin_interstitial_unit_id": "0",
+      "interstitial_ad_interval": 2
+    }
+  ],
+  "socials": [
+    {
+      "social_name": "Website",
+      "social_icon": "https://image.flaticon.com/icons/png/512/61/61027.png",
+      "social_url": "https://solodroid.net/demo/your_single_radio/page.html"
+    },
+    {
+      "social_name": "Facebook",
+      "social_icon": "https://image.flaticon.com/icons/png/512/61/61045.png",
+      "social_url": "https://www.facebook.com/solodroid.net"
+    },
+    {
+      "social_name": "Twitter",
+      "social_icon": "https://image.flaticon.com/icons/png/512/60/60580.png",
+      "social_url": "https://twitter.com/solodroiddev"
+    },
+    {
+      "social_name": "Instagram",
+      "social_icon": "https://image.flaticon.com/icons/png/512/61/61164.png",
+      "social_url": "https://www.instagram.com/solodroid.developer"
+    }
+  ]
+}
