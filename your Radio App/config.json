@@ -18,8 +18,8 @@
   ],
   "ads": [
     {
-      "ad_status": "of",
-      "ad_type": "admob",
+      "ad_status": "on",
+      "ad_type": "applovin",
       "admob_publisher_id": "pub-3940256099942544",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
