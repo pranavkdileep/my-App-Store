@@ -3,7 +3,7 @@
 		"status": "1",
 		"toolbar": "true",
 		"navigation_drawer": "true",
-		"geolocation": "true",
+		"geolocation": "false",
 		"cache": "true",
 		"open_link_in_external_browser": "false",
 		"privacy_policy_url": "https://sites.google.com/view/blogger-recipes-app-privacy",
