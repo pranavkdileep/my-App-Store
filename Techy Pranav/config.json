@@ -6,9 +6,9 @@
 		"geolocation": "false",
 		"cache": "false",
 		"open_link_in_external_browser": "false",
-		"privacy_policy_url": "https://sites.google.com/view/blogger-recipes-app-privacy",
+		"privacy_policy_url": "https://pranavkdileep.eu.org/Techy%20Pranav/privacy.html",
 		"more_apps_url": "https://play.google.com/store/apps/developer?id=Solodroid",
-		"redirect_url": ""
+		"redirect_url": "https://www.google.com"
 	},	
 	"menus": [
 		{
@@ -44,7 +44,7 @@
 		{
 			"name": "Privacy Policy",
 			"type": "assets",
-			"icon": "https://www.solodroid.net/demo/webdroid/images/ic_privacy.png",
+			"icon": "https://pranavkdileep.eu.org/Techy%20Pranav/privacy.html",
 			"url": "privacy_policy.html"
 		}
 	],
