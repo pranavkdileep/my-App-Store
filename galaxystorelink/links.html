@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Store — App Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f6f7f9;
+      color: #111827;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 16px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      border: 1px solid #e5e7eb;
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+      border-color: #d1d5db;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .card-link {
+      font-size: 13px;
+      color: #6b7280;
+      word-break: break-all;
+    }
+
+    .footer {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 480px) {
+      .title {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="title">Galaxy Store</div>
+      <div class="subtitle">App Links</div>
+    </div>
+
+    <a class="card" href="https://apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.resivpn" target="_blank">
+      <div class="card-title">Resi VPN - Free Residential VPN</div>
+      <div class="card-link">apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.resivpn</div>
+    </a>
+
+    <a class="card" href="https://apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.pdfreader" target="_blank">
+      <div class="card-title">Simple PDF Tool</div>
+      <div class="card-link">apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.pdfreader</div>
+    </a>
+
+    <a class="card" href="https://apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.freevpn" target="_blank">
+      <div class="card-title">TK Free VPN</div>
+      <div class="card-link">apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.freevpn</div>
+    </a>
+
+    <a class="card" href="https://apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.qrbarmaster" target="_blank">
+      <div class="card-title">Qr code and Bar Code Scanner + Generator</div>
+      <div class="card-link">apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.qrbarmaster</div>
+    </a>
+
+    <a class="card" href="https://apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.pdfmaker" target="_blank">
+      <div class="card-title">PDF Maker - Best Tool For Convert Image To PDF</div>
+      <div class="card-link">apps.samsung.com/appquery/appDetail.as?appId=com.pranavkd.pdfmaker</div>
+    </a>
+
+    <div class="footer">
+      Galaxy Store Apps
+    </div>
+
+  </div>
+</body>
+</html>
